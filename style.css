@@ -3,6 +3,7 @@
   background-size: cover;
   background-color: black;
   min-height: 500px;
+  text-align: center;
 }
 header{
   color: white;
@@ -10,3 +11,10 @@ header{
 .websites{
   width: 80%;
 }
+ h1{
+   font-family: 'Righteous', cursive;
+   font-size: 60px;
+ }
+ span{
+   font-size: 30px;
+ }
