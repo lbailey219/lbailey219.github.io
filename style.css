@@ -1,5 +1,9 @@
 .background-dark{
-  background: url("images/pittsburgh.jpg") center center no-repeat;
+
+  background: linear-gradient( to bottom, hsla(0, 0%, 27%, 0.6), rgba(0, 0, 0) ),
+  url("images/pittsburgh.jpg") center center no-repeat;
+
+
   background-size: cover;
   background-color: black;
   min-height: 500px;
@@ -26,4 +30,15 @@ header{
  .col-sm-6{
    box-sizing: border-box;
    flex-basis: 10%;
+ }
+ .front-end{
+   margin-top: 30px;
+   font-size: 20px;
+ }
+ .experience{
+   margin-top: 30px;
+   font-size: 20px;
+ }
+ .profile{
+   margin-top: 30px;
  }
