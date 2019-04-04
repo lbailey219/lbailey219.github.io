@@ -8,8 +8,8 @@
 header{
   color: white;
 }
-.websites{
-  width: 80%;
+.websites img{
+  width: 400px;
 }
  h1{
    font-family: 'Righteous', cursive;
@@ -17,4 +17,13 @@ header{
  }
  span{
    font-size: 30px;
+ }
+.websites .flex-box{
+   box-sizing: border-box;
+   justify-content: space-between;
+   display: flex;
+ }
+ .col-sm-6{
+   box-sizing: border-box;
+   flex-basis: 10%;
  }
