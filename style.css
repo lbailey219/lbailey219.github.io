@@ -1,6 +1,6 @@
 .background-dark{
 
-  background: linear-gradient( to bottom, hsla(0, 0%, 27%, 0.6), rgba(0, 0, 0) ),
+  background: linear-gradient( to bottom, hsla(0, 0%, 27%, 0.6), rgba(0, 0, 0,.8) ),
   url("images/pittsburgh.jpg") center center no-repeat;
 
 
@@ -41,4 +41,11 @@ header{
  }
  .profile{
    margin-top: 30px;
+ }
+ i{
+   font-size: 30px;
+   padding: 5px;
+ }
+ img{
+  height: 198px;
  }
